@@ -1,6 +1,6 @@
 -- 功能：编码 HTTP 返回头
 -- 阶段：header_filter_by_lua
--- 备注：
+-- 备注：#L114
 -- aceh = HTTP 返回头的 access-control-expose-headers 字段
 
 -- 无论浏览器是否支持，aceh 始终包含 *
@@ -153,4 +153,4 @@ if ngx.req.get_method() ~= 'GET' then
 end
 
 flushHdr()
-#L114
+
